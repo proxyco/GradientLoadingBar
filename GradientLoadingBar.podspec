@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GradientLoadingBar'
-  s.version          = '1.1.12'
+  s.version          = '1.1.13'
   s.summary          = 'A customizable animated gradient loading bar.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Inspired by https://codepen.io/marcobiedermann/pen/LExXWW
   s.screenshots      = 'http://felix.hamburg/files/github/gradient-loading-bar/screen.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Felix Mau' => 'contact@felix.hamburg' }
-  s.source           = { :git => 'https://github.com/fxm90/GradientLoadingBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fxm90/GradientLoadingBar.git', :tag => "v#{spec.version}" }
   s.social_media_url = 'https://twitter.com/iamfelixm'
 
   s.ios.deployment_target = '9.0'
